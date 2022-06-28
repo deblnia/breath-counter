@@ -85,7 +85,7 @@ body {
 }
 
 .container.grow {
-  animation: grow 9.5s linear forwards;
+  animation: grow 4s linear forwards;
 }
 
 @keyframes grow {
@@ -99,7 +99,7 @@ body {
 }
 
 .container.shrink {
-  animation: shrink 9.5s linear forwards;
+  animation: shrink 8s linear forwards;
 }
 
 @keyframes shrink {

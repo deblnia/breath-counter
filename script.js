@@ -7,14 +7,13 @@ const total = i + h + o
 const start = Date.now()
 setInterval(() => {
   let elapsed = (Date.now() - start) % total
+  text.innerText = 'Hold'
   if (elapsed < i) {
     text.innerText = 'Breathe In'
     container.className = 'container grow'
   } else if (elapsed > i + h) {
     text.innerText = 'Breathe Out'
     container.className = 'container shrink'
-  } else if ((elapsed < i + h) & (elapsed > i)) {
-    text.innerText = "Hold"
   }
 }, 10)
 
