@@ -2,7 +2,6 @@
 
 TODO:
 
-- Mobile Responsive 
 - Add time done
 - Configure timing 
 - Beeps on transitions 
