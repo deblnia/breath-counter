@@ -2,7 +2,13 @@
 
 TODO:
 
+- Mobile Responsive 
 - Add time done
+- Configure timing 
+- Beeps on transitions 
+- Guided Voice Transitions  
+- Make mobile responsive (esp. footer) 
+
 
 References:
 
